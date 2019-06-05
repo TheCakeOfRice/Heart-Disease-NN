@@ -73,7 +73,7 @@ epochs = range(1, len(acc) + 1)
 # Plotting loss
 # -- "bo" is for "blue dot"
 plt.plot(epochs, loss, 'bo', label='Training loss')
-# -- b is for "solid blue line"
+# -- "g" is for "solid green line"
 plt.plot(epochs, val_loss, 'g', label='Validation loss')
 plt.title('Training and validation loss')
 plt.xlabel('Epochs')
